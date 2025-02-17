@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Exercícios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Lista de Exercícios</h1>
+
+    <div>
+        <h2>Cálculo de Desconto</h2>
+        <input type="number" step="0.01" id="precoDesconto" placeholder="Digite o preço">
+        <button onclick="calcularDesconto()">Calcular</button>
+        <p id="resultadoDesconto"></p>
+    </div>
+
+    <div>
+        <h2>Salário Família</h2>
+        <input type="number" step="0.01" id="salarioFamilia" placeholder="Digite o salário">
+        <button onclick="calcularSalarioFamilia()">Calcular</button>
+        <p id="resultadoSalarioFamilia"></p>
+    </div>
+
+    <div>
+        <h2>INSS</h2>
+        <input type="number" step="0.01" id="salarioInss" placeholder="Digite o salário">
+        <button onclick="calcularINSS()">Calcular</button>
+        <p id="resultadoInss"></p>
+    </div>
+
+    <div>
+        <h2>Mercadoria</h2>
+        <input type="text" id="nomeMercadoria" placeholder="Nome da mercadoria">
+        <input type="number" step="0.01" id="precoMercadoria" placeholder="Digite o preço">
+        <button onclick="calcularMercadoria()">Calcular</button>
+        <p id="resultadoMercadoria"></p>
+    </div>
+
+    <div>
+        <h2>Maior Número</h2>
+        <input type="text" id="numerosMaior" placeholder="Digite 6 números separados por vírgula">
+        <button onclick="calcularMaiorNumero()">Calcular</button>
+        <p id="resultadoMaior"></p>
+    </div>
+
+    <div>
+        <h2>Ordenar Números</h2>
+        <input type="text" id="numerosOrdenar" placeholder="Digite 5 números separados por vírgula">
+        <button onclick="ordenarNumeros()">Ordenar</button>
+        <p id="resultadoOrdenado"></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
